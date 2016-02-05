@@ -1,0 +1,15 @@
+---
+- string
+- string
+- true
+- 45
+- '45'
+---
+- :key1: value
+  :key2: 41
+  :key3: false
+  :key4: 
+- :key1: value2
+  :key2: 22
+  :key3: true
+  :key4: 

@@ -42,4 +42,6 @@ clock do
   puts "DONG..."
 end
 
-clock(dong) # - why does this not work?
+# clock(dong) # - why does this not work? Because result of dong (nil) is passed
+# as argument to clock, when clock expects zero arguments. 
+clock { dong }
